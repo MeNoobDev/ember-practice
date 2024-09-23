@@ -1,7 +1,14 @@
 {{page-title "EmberPractice"}}
+<h1>APPLICATION ROUTE</h1>
 
+<nav>
+  <LinkTo @route="index">Index</LinkTo>
+  <LinkTo @route="about">About</LinkTo>
+  <LinkTo @route="favourites">Favorites</LinkTo>
+  <LinkTo @route="new-user">New User</LinkTo>
+  <LinkTo @route="posts">Posts</LinkTo>
+  <LinkTo @route="posts.new">Posts New</LinkTo>
+</nav>
+<br />
+<br />
 {{outlet}}
-
-{{! The following component displays Ember's default welcome message. }}
-<WelcomePage />
-{{! Feel free to remove this! }}
